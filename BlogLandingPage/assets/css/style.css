@@ -12,11 +12,9 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
-a {
-  color: #5846f9;
+a{
+  color: #444444;
 }
-
 a:hover {
   color: #5846f9;
   text-decoration: none;
