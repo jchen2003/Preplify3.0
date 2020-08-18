@@ -15,7 +15,7 @@
       if (target.length) {
 
         var scrollto = target.offset().top;
-        var scrolled = 20;
+        var scrolled = 10;
 
         if ($('#header').length) {
           scrollto -= $('#header').outerHeight()
@@ -108,20 +108,20 @@
 
   // Toggle .header-scrolled class to #header when page is scrolled
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 50) {
       $('#header').addClass('header-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
     }
   });
 
-  if ($(window).scrollTop() > 100) {
+  if ($(window).scrollTop() > 50) {
     $('#header').addClass('header-scrolled');
   }
 
   // Back to top button
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 100) {
+    if ($(this).scrollTop() > 50) {
       $('.back-to-top').fadeIn('slow');
     } else {
       $('.back-to-top').fadeOut('slow');
