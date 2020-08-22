@@ -4,6 +4,18 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-blog-post/blob/master/LICENSE)
  */
 
+.text_blue{
+    color: DeepSkyBlue
+}
+
+.text_green {
+    color: Green;
+}
+
+.text_red {
+    color: DarkRed;
+}
+
 #toc_container {
     background: #f9f9f9 none repeat scroll 0 0;
     border: 1px solid #aaa;
