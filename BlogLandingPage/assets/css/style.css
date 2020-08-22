@@ -1649,7 +1649,7 @@ section {
 }
 .altcard-image {
  grid-area: image;
- background: url("article1.jpg");
+ background: url("study.png");
  border-top-left-radius: 15px;
  border-top-right-radius: 15px;
  background-size: cover;
@@ -1681,7 +1681,7 @@ section {
 
 /*card2*/
 .altcard-image.card2 {
- background: url("article2.jpg");
+ background: url("book.png");
  background-size: cover;
 }
 .altcard-text.card2 .date {
