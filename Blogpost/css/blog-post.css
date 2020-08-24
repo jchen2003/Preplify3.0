@@ -661,3 +661,45 @@ section {
 #footer .footer-links a:hover {
   color: #5846f9;
 }
+
+/*--------------------------------------------------------------
+# Score Range Table
+--------------------------------------------------------------*/
+.scoretable {
+  border-spacing: 20;
+  align: center;
+  border: solid;
+  border-width: 0.25px;
+  width: 400px;
+}
+
+.tbordersolid {
+  border-style: solid;
+}
+
+/*--------------------------------------------------------------
+# Terminology (Score Range) Table
+--------------------------------------------------------------*/
+
+.terminologytable {
+  border-spacing: 20;
+  align: center;
+  border: solid;
+  border-width: 0.25px;
+  width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Selective (Most) Score Range SAT Table
+--------------------------------------------------------------*/
+
+.selectivetable {
+  border-spacing: 20;
+  align: center;
+  border: solid;
+  border-width: 0.25px;
+  width: 400px;
+}
