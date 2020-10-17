@@ -703,3 +703,7 @@ section {
   border-width: 0.25px;
   width: 400px;
 }
+
+.coming-soon {
+  text-align: center;
+}
